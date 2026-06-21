@@ -20,6 +20,12 @@
   }
 }
 
+// Pantalla de presentación (.static-login): el contenedor usa flexbox,
+// hay que asignar order para que el enlace aparezca debajo de los botones.
+.static-login .login-welcome .discourse-join-login-link {
+  order: 4;
+}
+
 // ── Header link ──────────────────────────────────────────────────────────────
 
 .discourse-join-header-link {
