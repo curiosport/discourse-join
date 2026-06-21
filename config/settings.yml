@@ -1,0 +1,23 @@
+plugins:
+  discourse_join_enabled:
+    default: true
+    client: true
+
+  discourse_join_url:
+    default: "/apply"
+    type: string
+    client: true
+
+  discourse_join_label:
+    default: "Apply to join"
+    type: string
+    client: true
+
+  # "text" renders a plain link, "button" renders a styled button
+  discourse_join_style:
+    default: "button"
+    type: enum
+    choices:
+      - button
+      - text
+    client: true
