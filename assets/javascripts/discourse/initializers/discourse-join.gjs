@@ -26,11 +26,11 @@ class DiscourseJoinLoginLink extends Component {
   <template>
     {{#if this.enabled}}
       {{#if this.isButton}}
-        <a href={{this.url}} class="btn btn-flat discourse-join-login-link discourse-join-login-link--button"">
+        <a href={{this.url}} class="btn btn-flat discourse-join-login-link discourse-join-login-link--button">
           {{this.label}}
         </a>
       {{else}}
-        <a href={{this.url}} class="discourse-join-login-link discourse-join-login-link--text"">
+        <a href={{this.url}} class="discourse-join-login-link discourse-join-login-link--text">
           {{this.label}}
         </a>
       {{/if}}
@@ -63,11 +63,11 @@ class DiscourseJoinHeaderLink extends Component {
   <template>
     {{#if this.enabled}}
       {{#if this.isButton}}
-        <a href={{this.url}} class="btn btn-small btn-default discourse-join-header-link discourse-join-header-link--button"">
+        <a href={{this.url}} class="btn btn-small btn-default discourse-join-header-link discourse-join-header-link--button">
           {{this.label}}
         </a>
       {{else}}
-        <a href={{this.url}} class="discourse-join-header-link discourse-join-header-link--text"">
+        <a href={{this.url}} class="discourse-join-header-link discourse-join-header-link--text">
           {{this.label}}
         </a>
       {{/if}}
