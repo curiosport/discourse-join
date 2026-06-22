@@ -83,7 +83,7 @@ export default {
   initialize() {
     withPluginApi((api) => {
       // Below the Log In / Sign Up buttons inside the login modal
-      api.renderInOutlet("login-after-modal-footer", DiscourseJoinLoginLink);
+      // api.renderInOutlet("login-after-modal-footer", DiscourseJoinLoginLink);
       api.renderInOutlet("below-login-buttons", DiscourseJoinLoginLink);
       
       // In the site header, after the auth buttons
